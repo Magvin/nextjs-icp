@@ -1,0 +1,22 @@
+{
+    "canisters": {
+        "btest": {
+            "main": "btest/main.mo",
+            "type": "motoko"
+        },
+        "ui": {
+            "source": [
+                "out"
+            ],
+            "type": "assets"
+        }
+    },
+    "networks": {
+        "local": {
+            "bind": "127.0.0.1:8000",
+            "type": "ephemeral"
+        }
+    },
+    "dfx": "0.7.0-beta.3",
+    "version": 1
+}
