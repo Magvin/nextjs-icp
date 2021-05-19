@@ -1,9 +1,5 @@
 {
     "canisters": {
-        "btest": {
-            "main": "btest/main.mo",
-            "type": "motoko"
-        },
         "ui": {
             "source": [
                 "out"

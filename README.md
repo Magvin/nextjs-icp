@@ -2,3 +2,7 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn) and Dfi
 
 ## Dfinity install ###
 `DFX_VERSION=0.7.0-beta.8 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"`
+
+# Deployment #
+`npm run export`
+`dfx deploy`
